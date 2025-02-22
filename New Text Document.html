@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Βασικό Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+        }
+        .logo {
+            margin-left: 15px;
+        }
+        .nav-container {
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            margin-top: 60px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Λογότυπο" height="40"> <!-- Προσθέστε το δικό σας λογότυπο -->
+        </div>
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="index.html">Αρχική</a>
+                <a href="contact.html">Επικοινωνία</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Καλώς ήρθατε στο βασικό μου site!</h1>
+        <p>Αυτό είναι ένα απλό παράδειγμα ιστοσελίδας με HTML, CSS και JavaScript.</p>
+        <button onclick="changeBackgroundColor()">Άλλαξε το φόντο</button>
+    </div>
+    
+    <footer>
+        <p>Επικοινωνία: email@example.com | Τηλέφωνο: +30 210 1234567</p>
+        <p>Ακολουθήστε μας στα social media: <a href="#" style="color: lightblue;">Facebook</a> | <a href="#" style="color: lightblue;">Twitter</a> | <a href="#" style="color: lightblue;">Instagram</a></p>
+    </footer>
+    
+    <script>
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        }
+    </script>
+</body>
+</html>
