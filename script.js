@@ -3,3 +3,5 @@ function changeBackgroundColor() {
     document.body.style.backgroundColor = color;
     document.body.style.color = (parseInt(color.substring(1), 16) > 0xffffff / 2) ? '#000' : '#fff';
 }
+
+awdawdaw
