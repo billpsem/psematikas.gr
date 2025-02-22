@@ -130,6 +130,7 @@ body {
       font-family: "Roboto", sans-serif;
       background: linear-gradient(to right, #006fff, #00acff 70%);
       -webkit-background-clip: text;
+      background-clip: text; /* κανει το ιδιο με το απο πανω απλα ειναι για παλαιότερους browser */
       -webkit-text-fill-color: transparent;
       text-shadow: 0px 10px 37px rgba(0, 111, 255, 0.8);
     }
@@ -151,6 +152,7 @@ body {
       font-family: "Roboto", sans-serif;
       background: linear-gradient(to right, #ff1027, #ff4f06 70%);
       -webkit-background-clip: text;
+      background-clip: text; /* κανει το ιδιο με το απο πανω απλα ειναι για παλαιότερους browser */
       -webkit-text-fill-color: transparent;
       text-shadow: 0px 10px 37px rgba(255, 16, 39, 0.6);
     }
@@ -172,6 +174,7 @@ body {
       font-family: "Roboto", sans-serif;
       background: linear-gradient(to right, #ff8d00, #f7ad07 70%);
       -webkit-background-clip: text;
+      background-clip: text; /* κανει το ιδιο με το απο πανω απλα ειναι για παλαιότερους browser */
       -webkit-text-fill-color: transparent;
       text-shadow: 0px 10px 37px rgba(255, 94, 16, 0.7);
     }
@@ -193,6 +196,7 @@ body {
       font-family: "Roboto", sans-serif;
       background: linear-gradient(to right, #ff0073, #fa2585 70%);
       -webkit-background-clip: text;
+      background-clip: text; /* κανει το ιδιο με το απο πανω απλα ειναι για παλαιότερους browser */
       -webkit-text-fill-color: transparent;
       text-shadow: 0px 10px 37px rgba(253, 24, 127, 0.7);
     }
