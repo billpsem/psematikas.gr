@@ -113,25 +113,25 @@ body {
     }
   }
 
-  &.amber-btn {
-    -webkit-box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
-    -moz-box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
-    box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+  &.twitter-btn {
+    -webkit-box-shadow: 0px 20px 20px -17px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 20px 20px -17px rgb(255, 255, 255);
+    box-shadow: 0px 20px 20px -17px rgb(255, 255, 255);
 
     &:hover {
-      -webkit-box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);
-      -moz-box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);
-      box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);      
+      -webkit-box-shadow: 0px 20px 35px -16px rgb(255, 255, 255);
+      -moz-box-shadow: 0px 20px 35px -16px rgb(255, 255, 255);
+      box-shadow: 0px 20px 35px -16px rgb(255, 255, 255);      
     }
 
     .content {
       font-size: 4em;
       font-family: "Roboto", sans-serif;
-      background: linear-gradient(to right, #ff8d00, #f7ad07 70%);
+      background: linear-gradient(to right, #ffffff, #ffffff 70%);
       -webkit-background-clip: text;
       background-clip: text; /* κανει το ιδιο με το απο πανω απλα ειναι για παλαιότερους browser */
       -webkit-text-fill-color: transparent;
-      text-shadow: 0px 10px 37px rgba(255, 94, 16, 0.7);
+      text-shadow: 0px 10px 37px rgb(255, 255, 255);
     }
   }
 
