@@ -4,6 +4,7 @@ body {
     padding: 50px;
     background-color: #f4f4f4;
     margin: 0;
+    overflow: hidden;
 }
 
 h1 {
@@ -24,57 +25,11 @@ button:hover {
     background-color: #0056b3;
 }
 
-nav {
-    background-color: #333;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+.logo-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-}
-
-.logo {
-    margin-left: 15px;
-}
-
-.nav-container {
-    display: flex;
-    flex-grow: 1;
     justify-content: center;
-}
-
-.nav-links {
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-.content {
-    margin-top: 60px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    left: 0;
+    align-items: center;
+    height: 150px; /* Η ύψος του λογότυπου */
 }
 
 .social-link {
@@ -89,7 +44,7 @@ footer {
 
 html,
 body {
-  background-color: #c0d2e9d5;
+  background-color: #000000d5;
   transition: all 0.3s;
   height: 100%;
 }
@@ -203,9 +158,19 @@ body {
   }
 
   &:hover {
-    background-color: darken(#fafafa, 2%);    
+    background-color: darken(#ffffff, 2%);    
     transform: translateY(-5px);
     transition: all 0.3s;
   }
 }
 
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
